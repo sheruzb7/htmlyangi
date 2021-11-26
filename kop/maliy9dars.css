@@ -1,0 +1,76 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+.container{
+   padding: 0 90px;
+}
+.main{
+   display: flex;
+   width: 100%;
+   height: 100px;
+}
+.policy{
+   width: 100%;
+   flex-grow: 0;
+}
+
+.policy > h3{
+   padding: 20px 0;
+}
+
+.new-item{
+   display: flex;
+   padding: 30px 0;
+   text-decoration: none;
+}
+.new-item:nth-child(1){
+   padding-top: 0;
+}
+.new-item > img{
+   width: 251px;
+   height: 139px;
+}
+.content{
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   padding-left: 20px;
+   padding-right: 40px;
+   color: #434343;
+   
+}
+
+.time{
+   display: flex;
+   align-items: centers;
+   color: #7688A4;
+}
+
+/*ongtaraf*/
+.random_news{
+   width: 500px;
+   padding-top: 30px;
+   }
+.random-container{
+   background-color: #F6F6F9;
+   padding: 10px;
+   border-radius: 5px;
+}
+.random-container > h3{
+   padding: 10px 0;
+}
+.random_news-items{
+   display: flex;
+   flex-direction: column;
+}
+.t-padding{
+   padding: 10px 0;
+}
+.random_news-item{
+   border-top: 3px solid #E4E4E4;
+}
+.random_news-item:nth-child(1){
+   border-top: none;
+}

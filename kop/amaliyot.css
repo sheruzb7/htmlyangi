@@ -1,0 +1,46 @@
+*{
+   box-sizing: border-box;
+}
+.container{
+   padding: 0 90px;
+}
+.history{
+   height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+}
+.history-item{
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 100px;
+   border-radius: 50%;
+   height: 100px;
+   /*background: linear-gradient(-45deg, red, blue);*/
+   background-color: aqua;
+}
+.history-item::after{
+   position: absolute;
+   content: "";
+   width: 90px;
+   height: 90px;
+   /*background-color: silver;*/
+   background-image: url(./cocon.jpg);
+   background-size: 100% 100%;
+   border: 2px solid white;
+   border-radius: 50%;
+}
+.history-item::before{
+   content: "";
+   position: absolute;
+   top: 85%;
+   width: 25px;
+   height: 25px;
+   background-color: aqua;
+   border: 2px solid white;
+   border-radius: 50%;
+   z-index: 1;
+}

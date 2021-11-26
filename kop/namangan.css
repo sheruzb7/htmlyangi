@@ -1,0 +1,25 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+.container{
+   padding: 0 90px;
+}
+
+.navbar{
+   width: 95%;
+   margin: auto;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   display: flex;
+   align-items: baseline;
+   justify-content: space-between;
+}
+.navbar ul li{
+   display: inline-block;
+   margin: 0 20px;
+}
+.dollir{
+   text-align: center;
+}

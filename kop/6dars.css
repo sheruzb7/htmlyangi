@@ -1,0 +1,32 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+.container{
+   padding: 0 90px;
+}
+.our-services{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.card{
+   display: flex;
+   flex-direction: column;
+   border: 1px solid #458FF6;
+   padding: 30px;
+   margin-top:10px ;
+   border-radius: 20px;
+   width: 300px;
+}
+.card > img{
+   width: fit-content;
+}
+.online{
+   margin: 20px 0;
+   font-size: 24px;
+}
+.buy{
+   color: #7D7987;
+}

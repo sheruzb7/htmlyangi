@@ -1,0 +1,99 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+.container{
+   padding: 0 90px;
+}
+.footer{
+   background-color: #295093;
+   height: 300px;
+   width: 100%
+   
+   }
+   .birliniya{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 0;
+      width: 100%;
+      height: 100px;
+   }
+   .tg{
+      display: flex;
+      align-items: center;
+      border: 1px solid white;
+      border-radius: 5px;
+      padding: 10px;
+      padding-left: 20px;
+      width: 150px;
+      height: 40px;
+      color: #295093;
+      background-color: white;
+   }
+   .tg > img{
+      width: fit-content;
+      padding-right: 10px;
+   }
+   .logo{
+      display: flex;
+      align-items: center;
+      width: 200px;
+      height: 40px;
+      background-color:#133C82;
+      padding: 15px;
+      border-radius: 5px;
+   }
+
+   .tagidagiobshe{
+      display: flex;
+      width: 100%;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 0;
+   }
+   .chap{
+      display: flex;
+      flex-direction: column;
+      /*align-items: center;*/
+      width: 30% ;
+      color: white;
+      margin-bottom: auto;
+      }
+      .chap > h4{
+         margin-right: auto;
+      }
+   .chap > p{
+      padding: 10px 0;
+   }
+   .ong {
+      width: 150px;
+      display: flex;
+      /*align-items: center;*/
+      margin-bottom: auto;
+      }
+   .ong ul li{
+      display: flex;      
+      list-style: none;
+      }
+   .ong a{
+      text-decoration: none;
+      color: white;
+      padding-bottom: 14px;
+   }
+   .ong2{
+      display: flex;
+      width: 30%;
+      /*align-items: center;*/
+      margin-bottom: auto;
+   }
+   .ong2 ul li{
+      display: flex;      
+      list-style: none;
+   }
+   .ong2 a{
+      text-decoration: none;
+      color: white;
+      padding-bottom: 14px;
+   }

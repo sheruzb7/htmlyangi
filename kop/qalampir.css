@@ -1,0 +1,72 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+.container{
+   padding: 0  90px;
+}
+.logo>img{
+width: 200px;
+}
+.navbar{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-top: 50px 0;
+   padding-left: 50px 0;
+   
+
+}
+.nav{
+   display: flex;
+   list-style: none;
+   margin-left: auto;
+   margin-right: 50px;
+
+}
+.nav-item>a{
+   color: black;
+   text-decoration: none;
+   font-size: 19px;
+   font-weight: 700;
+}
+.nav-item{
+   padding:10px;
+}
+.menu{
+   margin-left: 14px;
+}
+/*trafalgar*/
+.footer{
+   font-family:"Mulish" ;
+   background-color:#67C3F3 ;
+   display: flex;
+   padding-top:20px ;
+   justify-content: space-between;
+   padding-bottom: 20px;
+   margin-top: 300px;
+   color: #fff;
+}
+
+.description{
+   width: 50%;
+   margin: 24px 0;
+}
+.additional-column{
+   width: 260px;
+   padding: 10px;
+}
+.title{
+   margin-bottom: 20px;
+}
+.links{
+   list-style: none;
+}
+.links>li{
+   margin: 14px 0;
+}
+.links> li>a{
+   text-decoration: none;
+   color: #fff;
+}
